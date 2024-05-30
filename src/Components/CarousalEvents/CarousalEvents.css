@@ -1,0 +1,32 @@
+.d-block {
+  width: 130px;
+  height: 100px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.carousels {
+  margin: auto 20px;
+}
+
+.borders {
+  border: 1px solid #9a4b5c !important;
+  border-radius: 15px;
+  width: 250px;
+  height: 351px;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+}
+
+.container-fluid {
+  /* width: 230px; */
+}
+
+.borders h5 {
+  margin-top: 12px;
+}
+
+.carousal2-p {
+  margin-bottom: 3px;
+}

@@ -1,0 +1,25 @@
+.home-container {
+  background-image: url("../../Images/dashboardBg.png");
+  background-size: cover;
+  // background-position: center center;
+}
+
+.dash {
+  // text-decoration: underline;
+  text-align: end;
+  margin-right: 50px;
+}
+
+.content {
+  display: flex;
+  margin-left: -20px;
+  height: fit-content;
+}
+
+.calendar {
+  margin-left: 350px;
+}
+
+.progress-home {
+  // margin-left: 100px;
+}

@@ -1,0 +1,76 @@
+.user {
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 50%;
+  margin-right: 1.25rem;
+}
+
+.nav-icons {
+  gap: 1.25rem;
+  margin-bottom: 3.125rem;
+  margin-right: -233px;
+
+  svg {
+    font-size: 1.5rem;
+  }
+}
+
+.youtunein-logo {
+  width: 7.9rem;
+  height: auto;
+}
+
+.sap-logo {
+  margin-top: 3.33rem;
+  margin-left: -6.9rem;
+  width: 3.25rem;
+  height: auto;
+}
+
+.navbar-expand-lg {
+  height: 127px;
+  margin-left: -60px;
+}
+
+.container-fluid {
+  width: 1288px !important;
+}
+
+.nav-link {
+  margin-left: 2.45rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 450 !important;
+  font-style: normal;
+  font-size: larger !important;
+  margin-top: -2.25rem;
+  border-bottom: 2.5px solid #f0a081 !important;
+}
+// .nav-item {
+//   position: relative;
+// }
+
+.nav-item::after {
+  content: "";
+  position: absolute;
+  bottom: 9px;
+  left: 30px;
+  width: 100%;
+  // border-bottom: 2.5px solid #f0a081;
+}
+
+.nav-para {
+  font-family: "Poppins", sans-serif;
+  font-weight: 450 !important;
+  font-style: normal;
+  font-size: larger !important;
+  // margin-right: 3.5rem;
+  margin-top: 80px;
+  margin-right: 140px;
+}
+
+.dash {
+  text-decoration-color: #f0a081 !important;
+  text-decoration: underline;
+  margin-right: 66px;
+  margin-top: 37px;
+}

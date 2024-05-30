@@ -1,0 +1,46 @@
+body {
+  background-image: url("../../Images/dashboardBg.png");
+  background-size: contain; /* Cover the entire background */
+  background-position: right; /* Center the background image */
+  background-repeat: no-repeat;
+}
+
+.main-box {
+  display: flex;
+}
+
+.content-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+.top-body,
+.mid-body,
+.bottom-body {
+  width: 1000px;
+  height: fit-content;
+  gap: 30px;
+  display: flex;
+  //   margin-top: 30px;
+  margin-right: 160px;
+}
+
+.inside-top,
+.inside-mid,
+.inside-bottom {
+  height: fit-content;
+}
+.inside-bottom {
+  display: flex;
+  gap: 15px;
+}
+
+.bottom-body {
+  //   margin-right: 160px !important;
+  //   margin-bottom: -279px !important;
+}

@@ -1,0 +1,6 @@
+.video-comp {
+  width: fit-content;
+}
+.all-video-container {
+  display: flex;
+}

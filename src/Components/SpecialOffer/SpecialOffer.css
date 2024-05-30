@@ -1,0 +1,78 @@
+.carousel {
+  position: relative;
+  overflow: hidden;
+  border: 2px dashed #c78aa7;
+  border-radius: 30px;
+  width: 300px;
+}
+
+.carousel-content {
+  display: flex;
+  width: 100px;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex: 1 0 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.slide img {
+  width: 107px;
+  border-radius: 10px;
+}
+
+.text {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.radio-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.radio-buttons input {
+  display: none;
+}
+
+.radio-buttons input:checked + label {
+  background-color: #555;
+}
+
+.radio-buttons label {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: background-color 0.3s;
+}
+
+.OfferCarousal p {
+  font-family: "Varela Round", sans-serif;
+  width: fit-content;
+  background-color: white;
+  border-radius: 10px;
+}
+.OfferCarousal {
+  width: fit-content;
+}
+
+.website-link {
+  text-decoration: underline;
+  color: blue;
+  width: fit-content;
+}
+
+.offer-carousal {
+  background-color: #583469;
+  color: white;
+  border-radius: 50px;
+  width: 120px;
+}

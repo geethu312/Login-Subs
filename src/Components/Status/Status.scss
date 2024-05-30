@@ -1,0 +1,71 @@
+.status-box {
+  width: 450px;
+  height: 180px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  margin-left: -40px;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  gap: 20px;
+  margin-top: -25px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.active-user,
+.available-seats {
+  display: flex;
+  margin-left: 60px;
+  margin-top: 15px;
+}
+
+.active-user {
+  color: #0275c4;
+}
+
+.available-seats {
+  color: #4d8e2b;
+}
+
+@media (max-width: 768px) {
+  .status-box {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 10px;
+    padding: 10px;
+    align-items: flex-start;
+  }
+
+  .active-user,
+  .available-seats {
+    margin-left: 0;
+    margin-top: 10px;
+    justify-content: flex-start;
+  }
+
+  .active-user h1,
+  .available-seats h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .status-box {
+    padding: 5px;
+  }
+
+  .active-user h1,
+  .available-seats h1 {
+    font-size: 20px;
+  }
+
+  .active-user svg,
+  .available-seats svg {
+    width: 32px;
+    height: 32px;
+  }
+}
