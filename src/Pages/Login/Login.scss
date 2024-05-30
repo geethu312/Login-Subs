@@ -7,6 +7,10 @@ html,
   //   background-color: #f0f0f0;
 }
 
+.main-container {
+  display: flex;
+}
+
 .App {
   display: flex;
   justify-content: center;
@@ -22,6 +26,7 @@ html,
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 100px auto;
   border-radius: 10px;
+  height: 500px;
 }
 
 .login-image-section {

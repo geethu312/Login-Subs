@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./Login.scss";
 import { useNavigate } from "react-router-dom";
+import SideBar from "../../Components/SideBar/SideBar";
 
 const Login: React.FC = () => {
   const [username, setUsername] = useState("abhishek@betatestsolutions.com");
@@ -44,36 +45,39 @@ const Login: React.FC = () => {
   };
 
   return (
-    <div className="login-container">
-      <div className="login-image-section"></div>
-      <div className="login-section">
-        <h2>Login</h2>
-        {error && <p className="login-error">{error}</p>}
-        <form onSubmit={handleSubmit}>
-          <div className="login-form-group">
-            <label htmlFor="username">Username</label>
-            <input
-              type="text"
-              id="username"
-              name="username"
-              value={username}
-              onChange={handleUsernameChange}
-            />
-          </div>
-          <div className="login-form-group">
-            <label htmlFor="password">Password</label>
-            <input
-              type="password"
-              id="password"
-              name="password"
-              value={password}
-              onChange={handlePasswordChange}
-            />
-          </div>
-          <button type="submit" className="login-button">
-            Login
-          </button>
-        </form>
+    <div className="main-container">
+      <SideBar />
+      <div className="login-container">
+        <div className="login-image-section"></div>
+        <div className="login-section">
+          <h2>Login</h2>
+          {error && <p className="login-error">{error}</p>}
+          <form onSubmit={handleSubmit}>
+            <div className="login-form-group">
+              <label htmlFor="username">Username</label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                value={username}
+                onChange={handleUsernameChange}
+              />
+            </div>
+            <div className="login-form-group">
+              <label htmlFor="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                value={password}
+                onChange={handlePasswordChange}
+              />
+            </div>
+            <button type="submit" className="login-button">
+              Login
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   );
